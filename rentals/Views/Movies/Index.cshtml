@@ -1,0 +1,10 @@
+﻿@model rentals.Models.Movie
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<h1>@(((Movie) ViewData["Movie"]).Name)</h1>*@
+
+<h1>@Model.Name</h1>
